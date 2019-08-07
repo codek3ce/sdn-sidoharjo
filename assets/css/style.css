@@ -1,0 +1,375 @@
+body{
+
+	background-color: #fff;
+
+}
+
+.container{max-width:1024px}
+
+.blog-header{
+
+    background: #085099 url("../images/back.png") top center no-repeat;
+
+}
+
+.blog-masthead {
+
+    background-color: #eee;
+
+}
+
+.sidebar-module-inset {
+
+    padding: 15px;
+
+    background-color: #fff;
+
+    border-radius: 4px;
+
+}
+
+.sidebar-module {
+
+    padding: 15px;
+
+}
+
+.navbar {
+
+    position: relative;
+
+    min-height: 40px;
+
+    margin-bottom: 0px;
+
+    border: 0px solid transparent;
+
+}
+
+.navbar-nav > li > a {
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+
+    color: #FFF;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+
+    color: #FFF;
+
+    background-color: #085099;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+
+    color: #FFF;
+
+    background-color: #085099;
+
+}
+
+.navbar-default {
+
+    background-color: #000;
+
+}
+
+
+
+.box{
+
+	margin: 10px 0;
+
+    width: auto;
+
+    height: 340px;
+
+    overflow: auto;
+
+}
+
+
+.event {
+
+    background: #FFF none repeat scroll 0% 0%;
+
+    text-align: center;
+
+    margin-bottom: 15px;
+
+	border: 1px #085099 solid;
+
+}
+
+
+
+.blog-footer {
+
+    margin-top: 40px;
+
+    padding: 20px 0px;
+
+    color: #fff;
+
+    background-color: #000;
+
+    border-top: 3px solid #E5E5E5;
+
+}
+
+.fancybox-skin {
+
+    background: none repeat scroll 0 0 transparent;
+
+}
+
+.fancybox-opened .fancybox-skin {
+
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.carousel {
+
+    margin: 0px 0px 0px;
+
+
+
+}
+
+.carousel-inner {
+
+    position: relative;
+
+    width: 100%;
+
+    overflow: hidden;
+
+    max-height: 300px;
+
+}
+
+.divider2:before {
+
+    position: absolute;
+
+    bottom: -2px;
+
+    display: block;
+
+    width: 48.6%;
+
+    content: "";
+
+    border-bottom: 2px solid #337AB7;
+
+}
+
+.divider2 {
+
+    position: relative;
+
+    border-bottom: 2px solid #d1d1d1;
+
+}
+
+hr.divider2 {
+
+    height: 0;
+
+}
+
+.divider2:after {
+
+    position: absolute;
+
+    bottom: -2px;
+
+    left: 63.8%;
+
+    display: block;
+
+    width: 16.6%;
+
+    content: "";
+
+    border-bottom: 2px solid #b4b4b4;
+
+}
+
+.topic-sub-title, .topic-sub-title-2 {
+
+    padding-top: 3px;
+
+    padding-left: 14px;
+
+    background: transparent url("https://www.its.ac.id/images/v2/mini-octagon.png") no-repeat scroll 0px 3px;
+
+    color: #007DC5;
+
+    font-size: 1.4em;
+
+    font-weight: 300;
+
+}
+
+.h5 {
+
+    font-size: 1.5em;
+
+    margin: 0.57em 0px;
+
+}
+
+.align-right {
+
+    float: right;
+
+}
+
+.archive {
+
+    font-size: 24pt;
+
+    font-weight: 400;
+
+    color: #666;
+
+    line-height: 26px;
+
+    background: transparent url("https://www.its.ac.id/images/v2/icon_arsip_OFF.png") no-repeat scroll 0% 0%;
+
+    display: block;
+
+    width: 18px;
+
+    height: 14px;
+
+    position: absolute;
+
+    top: 5px;
+
+    right: 0px;
+
+}
+
+.thumbnail {
+
+    border-radius: 0px;
+
+}
+
+.logo{
+
+    margin: 20px 0;
+
+}
+
+.blog-footer h4 {
+
+    font-size: 17px;
+
+    line-height: 18px;
+
+}
+
+
+
+.blog-footer h4, h3 {
+
+    color:#F8D200;
+
+}
+
+
+
+.footer li{
+
+    list-style: square;
+
+    margin-left: -20px;
+
+    color: #fff;
+
+    font-size: 12px;
+
+}
+
+.footer a{
+
+    color: #fff;
+
+}
+
+.copyright{
+
+    background: #000;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #151515;
+
+}
+
+.copyright p{
+
+    color: #eee;
+
+    font-size: 11px;
+
+}
+
+.list{
+
+    margin: 20px 0;
+
+}
+
+.list li{
+
+    list-style: none;
+
+    line-height: 1,5em;
+
+    margin-left: -40px;
+
+    padding: 5px 0;
+
+}
+
+.list li a:hover{
+
+    font-weight: bold;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+}
+
+.list {
+	margin : 10px 0px;
+	list-style: none;
+}
+
+
+.list li {
+	background: url(../images/dot-icon.png) no-repeat left top 5px;
+	padding: 5px 0px 5px 40px;
+	margin-left: -40px;
+	border-bottom: 1px dashed #DADADA;
+}
+
+.testimonial { margin: 0; background: #fff;     padding: 10px 50px;     position: relative;     font-family: Georgia, serif;     color: #666;     border-radius: 5px;     font-style: italic;     text-shadow: 0 1px 0 #ECFBFF;} .testimonial:before, .testimonial:after {     content: "\201C";     position: absolute;     font-size: 80px;     line-height: 1;     color: #999;     font-style: normal; } .testimonial:before {     top: 0;     left: 10px; } .testimonial:after {     content: "\201D";     right: 10px;     bottom: -0.5em; } .arrow-down {     width: 0;     height: 0;     border-left: 15px solid transparent;     border-right: 15px solid transparent;     border-top: 15px solid #fff;     margin: 0 0 0 25px; } .testimonial-author {     margin: 0 0 0 25px;     font-family: Arial, Helvetica, sans-serif;     color: #999;     text-align:left; } .testimonial-author span {     font-size: 12px;     color: #666; }
